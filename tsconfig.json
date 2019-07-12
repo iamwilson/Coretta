@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "outDir": "dist",
+    "target": "es5",
+    "module": "esnext",
+    "allowJs": true,
+    "sourceMap": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noImplicitReturns": false,
+    "moduleResolution": "node",
+    "lib": ["dom", "es6", "es7"],
+    "allowSyntheticDefaultImports": true
+  },
+
+  "exclude": ["dist", "node_modules", "webpack"]
+}

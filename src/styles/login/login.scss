@@ -1,0 +1,49 @@
+@import '../common/variables.scss';
+
+@media only screen and (min-width: 416px) {
+    .login-container {
+        top: 50%;
+        left: 50%;
+        width: 21%;
+        padding: 20px;
+        position: absolute;
+        background-color: $white;
+        border: 1px solid #d1d4d7;
+        border-radius: $border-radius;
+        transform: translate(-50%, -50%);
+
+        .login-wrapper {
+            padding: 20px;
+        }
+
+        .login-masthead {
+            height: 60px;
+            color: $white;
+            font-size: 24px;
+            font-weight: bold;
+            background: #0092e1;
+            padding: 12px 0px 0px 40px;
+            margin: -21px -21px 10px -21px;
+            border-radius: 4px 4px 0px 0px;
+        }
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .login-container {
+        background-color: none;
+        padding: 100px 20px 20px 20px;
+        height: -webkit-fill-available;
+
+        .login-wrapper {
+            padding: 20px;
+        }
+
+        .login-masthead {
+            color: black;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 20px 0px 10px 20px;
+        }
+    }
+}

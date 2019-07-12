@@ -1,0 +1,46 @@
+[{
+        "id": "1",
+        "name": "Tryggplan",
+        "requestId": "R1",
+        "status": 0,
+        "state": "0",
+        "createDate": "2019-06-01 00:00:00.0000000",
+        "context": "{\"SalaryChange\":null,\"Head\":null,\"UserId\":U001,\"ResponseMessage\":null,\"IsError\":true\"Head\":null,\"UserId\":U001,\"ResponseMessage\":null,}"
+    },
+    {
+        "id": "2",
+        "name": "Free",
+        "requestId": "R2",
+        "status": 1,
+        "state": "0",
+        "createDate": "2019-06-03 00:00:00.0000000",
+        "context": "{\"connectIndividual\":{\"Sender\":{\"id\":\"80049\",\"brokerCode\":\"1647B\"},\"SellingChannel\":null,\"Customer\":{\"CompanyInformation\":{\"Agreement\":{\"number\":\"7700003498\",\"category\":\"20786\"}},\"PersonalInformation\":{\"socialSecurityNumber\":\"19581108-7419\",\"annualSalary\":3000000,\"z\":65,\"employmentDate\":\"2018-04-01T00:00:00\",\"altITP\":false,\"altITPSpecified\":true}},\"Insurance\":{\"validFromDate\":\"2019-04-01T00:00:00\",\"InsuranceProducts\":{\"salaryExchange\":null,\"FundInsurance\":{\"PricingModels\":{\"priceModel\":\"4\",\"commissionModel\":null,\"feeModel\":null},\"repaymentGuaranteeValueModel\":0,\"premiumChargeModel\":1,\"Premium\":{\"premiumValue\":0.0,\"premiumType\":\"PERIODIC\"},\"payoutTime\":\"10\",\"holding\":{\"funds\":[{\"Id\":\"SE0002278770\",\"share\":0.35},{\"Id\":\"991\",\"share\":0.3},{\"Id\":\"736\",\"share\":0.1},{\"Id\":\"901\",\"share\":0.1},{\"Id\":\"359\",\"share\":0.05},{\"Id\":\"404\",\"share\":0.05},{\"Id\":\"364\",\"share\":0.03},{\"Id\":\"038\",\"share\":0.01},{\"Id\":\"951\",\"share\":0.01}]},\"taxCategory\":null,\"productTypeSpecified\":false,\"repaymentGuaranteeSpecified\":false,\"guaranteeOption\":false,\"guaranteeOptionSpecified\":true,\"repaymentGuaranteeValueModelSpecified\":true},\"TradInsurance\":null,\"Waiver\":null,\"FamilyPension\":null}}},\"Head\":{\"SenderId\":\"interntest\",\"ReceiverId\":null,\"TxId\":\"146e014e-353b-4d11-8e3d-57e45fd12309\",\"TlNr\":null,\"ListId\":null,\"MessageType\":null},\"UserId\":null,\"ResponseMessage\":null,\"IsError\":false}"
+    },
+    {
+        "id": "3",
+        "name": "Exa",
+        "requestId": "R3",
+        "status": 2,
+        "state": "0",
+        "createDate": "2019-06-05 00:00:00.0000000",
+        "context": "{\"SalaryChange\":null,\"Head\":null,\"UserId\":U003,\"ResponseMessage\":null,\"IsError\":true}"
+    },
+    {
+        "id": "4",
+        "name": "Premium Ended",
+        "requestId": "R4",
+        "status": 3,
+        "state": "0",
+        "createDate": "2019-06-07 00:00:00.0000000",
+        "context": "{\"SalaryChange\":null,\"Head\":null,\"UserId\":U004,\"ResponseMessage\":null,\"IsError\":false}"
+    },
+    {
+        "id": "5",
+        "name": "Premium Adjustment",
+        "requestId": "R5",
+        "status": 4,
+        "state": "0",
+        "createDate": "2019-06-09 00:00:00.0000000",
+        "context": "{\"SalaryChange\":null,\"Head\":null,\"UserId\":U005,\"ResponseMessage\":null,\"IsError\":true}"
+    }
+]

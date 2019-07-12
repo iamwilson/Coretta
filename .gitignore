@@ -1,0 +1,18 @@
+# compiled output
+dist
+
+# dependencies
+node_modules
+
+# editors
+.idea
+.vscode
+
+# misc
+*.bin
+*.lock
+*.properties
+npm-debug.log
+
+# system files
+.DS_Store

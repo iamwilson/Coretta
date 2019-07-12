@@ -1,0 +1,8 @@
+@import './variables.scss';
+
+.header-container {
+    color: $white;
+    height: $app-header-height;
+    background-color: $outline_color;
+    border-bottom: 1.25px solid $black;
+}

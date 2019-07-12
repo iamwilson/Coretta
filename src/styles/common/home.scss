@@ -1,0 +1,63 @@
+@import './variables.scss';
+
+.home-container {}
+
+.app-container {
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    position: absolute;
+    background-image: url('../assets/images/coretta_background.jpg');
+}
+
+.content-container {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 240px;
+    position: absolute;
+    background: $background-color;
+}
+
+.router-container {
+    height: -webkit-fill-available;
+}
+
+// traffic lights party
+.status {
+    padding: 2px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 2px 2px 2px;
+    border: 1px solid transparent;
+}
+
+.status-failed {
+    color: $white;
+    border-color: $red;
+    background-color: $red;
+}
+
+.status-pending {
+    color: #000;
+    border-color: #dee2e6;
+    background-color: #dee2e6;
+}
+
+.status-processing {
+    color: #000;
+    border-color: orange;
+    background-color: $menu-highlight;
+}
+
+.status-succeeded {
+    color: $white;
+    border-color: $green;
+    background-color: $green;
+}

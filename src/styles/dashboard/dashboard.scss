@@ -1,0 +1,9 @@
+@import '../common/variables.scss';
+
+.dashboard-container {
+    height: 320px;
+    color: $black;
+    background-color: $light-gray;
+    border-radius: $border-radius;
+    margin-top: $component-margin-top;
+}

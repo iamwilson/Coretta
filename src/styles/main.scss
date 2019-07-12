@@ -1,0 +1,18 @@
+// core
+@import '~font-awesome/css/font-awesome.css';
+@import '~@sebgroup/bootstrap/scss/bootstrap';
+
+// components
+@import './common/header.scss';
+@import './common/loader.scss';
+@import './common/notFound.scss';
+@import './common/retry.scss';
+@import './common/sidePanel.scss';
+@import './common/search.scss';
+@import './common/translate.scss';
+@import './common/home.scss';
+@import './create/create.scss';
+@import './manage/manage.scss';
+@import './simulate/simulate.scss';
+@import './dashboard/dashboard.scss';
+@import './login/login.scss';

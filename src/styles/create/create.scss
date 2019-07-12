@@ -1,0 +1,20 @@
+@import '../common/variables.scss';
+
+.create-container {
+    background-color: white;
+    padding: 10px 40px 80px 40px;
+    border-radius: $border-radius;
+    border: 1.05px solid $text-color;
+    margin-top: $component-margin-top;
+    
+    .stepper-wrapper {
+        color: white;
+        margin: -10px -40px 40px -40px;
+        padding: 10px;
+        background-color: $outline_color;
+    }
+
+    .btn-org {
+        padding: 15px 0px 0px 0px;
+    }
+}

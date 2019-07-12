@@ -1,0 +1,97 @@
+[{
+        "id": "CiD1",
+        "transactionId": "1",
+        "status": 0,
+        "type": "DetachInsurance",
+        "executionDate": "2019-06-01T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD2",
+        "transactionId": "1",
+        "status": 2,
+        "type": "FreeDataRetrieve",
+        "executionDate": "2019-06-02T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD3",
+        "transactionId": "1",
+        "status": 3,
+        "type": "FreeMoveInsurance",
+        "executionDate": "2019-06-03T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD4",
+        "transactionId": "2",
+        "status": 0,
+        "type": "DetachInsurance",
+        "executionDate": "2019-06-04T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD5",
+        "transactionId": "2",
+        "status": 2,
+        "type": "FreeDataRetrieve",
+        "executionDate": "2019-06-05T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD6",
+        "transactionId": "2",
+        "status": 3,
+        "type": "FreeMoveInsurance",
+        "executionDate": "2019-06-11T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD7",
+        "transactionId": "3",
+        "status": 0,
+        "type": "DetachInsurance",
+        "executionDate": "2019-06-14T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD8",
+        "transactionId": "3",
+        "status": 2,
+        "type": "FreeDataRetrieve",
+        "executionDate": "2019-06-17T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD9",
+        "transactionId": "3",
+        "status": 3,
+        "type": "FreeMoveInsurance",
+        "executionDate": "2019-06-21T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD10",
+        "transactionId": "4",
+        "status": 0,
+        "type": "DetachInsurance",
+        "executionDate": "2019-06-22T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD11",
+        "transactionId": "4",
+        "status": 2,
+        "type": "FreeDataRetrieve",
+        "executionDate": "2019-06-28T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    },
+    {
+        "id": "CiD12",
+        "transactionId": "4",
+        "status": 3,
+        "type": "FreeMoveInsurance",
+        "executionDate": "2019-06-30T08:40:01.266Z",
+        "message": "System.NotImplementedException: The method or operation is not implemented"
+    }
+]
