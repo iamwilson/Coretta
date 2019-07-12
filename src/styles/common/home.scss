@@ -10,7 +10,6 @@
     margin: 0px;
     overflow-x: hidden;
     position: absolute;
-    background-image: url('../assets/images/coretta_background.jpg');
 }
 
 .content-container {
@@ -20,6 +19,14 @@
     left: 240px;
     position: absolute;
     background: $background-color;
+}
+
+.back-image-abstract {
+    background-image: url('../assets/images/coretta_background.jpg');
+}
+
+.back-image-city {
+    background-image: url('../assets/images/landscape.png');
 }
 
 .router-container {
