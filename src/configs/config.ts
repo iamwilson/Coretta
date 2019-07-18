@@ -3,7 +3,7 @@ export const DATE_FORMAT = 'YYYY-MM-DD';
 
 // endpoints
 export const OFFLINE_URL = '';
-export const ONLINE_URL = 'https://taken-https-life-internal-dev.cumulus.sebank.se';
+export const ONLINE_URL = '';
 export const TEST_URL = 'http://localhost:50523';
 
 // language
