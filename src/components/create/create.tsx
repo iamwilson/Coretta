@@ -40,7 +40,7 @@ class Create extends React.Component<ICreateProps, ICreateState> {
 
     render() {
         return (
-            <div className='container-fluid create-container back-image-city'>
+            <div className='container-fluid create-container'>
                 <div className='row'>
                     <div className='col-md-12'>
                         <div className='header-wrapper'>
