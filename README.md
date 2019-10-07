@@ -14,6 +14,6 @@ The build architecture comprises of the following:
 -   Multi layered services (4 including the component access)
 -   React 16+ (Fiber)
 -   React-Redux
--   SASS styling with bootstrap 4 (SEB bootstrap)
+-   SASS styling with Bootstrap
 -   Typescript
 -   Webpack 4+
