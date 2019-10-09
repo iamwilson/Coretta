@@ -26,10 +26,6 @@ module.exports = {
                 loader: ['ts-loader']
             },
             {
-                test: /\.(jpe?g|png|gif)$/,
-                loader: ['file-loader']
-            },
-            {
                 test: /(\.css|\.scss|\.sass)$/,
                 loaders: ['style-loader', 'css-loader', 'sass-loader']
             },
