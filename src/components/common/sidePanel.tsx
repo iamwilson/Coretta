@@ -12,7 +12,7 @@ const SidePanel = () => {
         <div className='side-bar-container'>
             <div className='app-name-container'>
                 <a className='app-name' href='#/home'>
-                    <img className='app-logo' src={'../../assets/images/coretta_mast.png'} />
+                    <img className='app-logo' src={CorettaLogo} />
                     Coretta
                 </a>
             </div>
