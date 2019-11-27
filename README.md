@@ -1,6 +1,6 @@
 # Coretta
 
-React feature playground update.
+React feature playground update
 
 ## Tech stack
 
