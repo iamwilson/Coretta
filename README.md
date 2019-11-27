@@ -1,4 +1,4 @@
-# Coretta - [![Build status](https://dev.azure.com/Coretta/Coretta/_apis/build/status/Coretta-React-API)](https://dev.azure.com/Coretta/Coretta/_build/latest?definitionId=3)
+# Coretta [![Build status](https://dev.azure.com/Coretta/Coretta/_apis/build/status/Coretta-React-API)](https://dev.azure.com/Coretta/Coretta/_build/latest?definitionId=3)
 
 React feature playground update
 
