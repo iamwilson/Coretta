@@ -1,3 +1,10 @@
+https://dev.azure.com/Coretta/Coretta/_apis/build/status/Coretta-React-API
+
+https://dev.azure.com/Coretta/Coretta/_apis/build/status/Coretta-React-API?branchName=master
+
+[![Build status](https://dev.azure.com/Coretta/Coretta/_apis/build/status/Coretta-React-API)](https://dev.azure.com/Coretta/Coretta/_build/latest?definitionId=3)
+
+
 # Coretta
 
 React feature playground update
