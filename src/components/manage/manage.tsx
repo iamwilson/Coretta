@@ -81,7 +81,7 @@ class Manage extends React.Component<IManageProps, IManageState> {
  handleChange = (e: any) => {
   const key = e.target.name;
   const value = e.target.value;
- };
+ }
 
  render() {
   return (

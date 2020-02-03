@@ -9,6 +9,8 @@ interface ICreateProps {
 
 interface ICreateState {
     data: any;
+    orgNumber: number;
+    total: number;
 }
 
 class Create extends React.Component<ICreateProps, ICreateState> {
@@ -16,7 +18,9 @@ class Create extends React.Component<ICreateProps, ICreateState> {
         super(props);
 
         this.state = {
-            data: []
+            data: [],
+            orgNumber: 0,
+            total: 0
         };
     }
 
@@ -24,10 +28,15 @@ class Create extends React.Component<ICreateProps, ICreateState> {
         const key = e.target.name;
         const value = e.target.value;
 
-        // const credentialsObject: Credentials = { ...this.state.credentials };
-        // credentialsObject[key] = value;
-        // this.setState({ credentials: credentialsObject });
+        this.setState({orgNumber : value}, () => { this.computeTotal()});
 
+        // this.computeTotal();
+
+    }
+
+    computeTotal =() => {
+        const total = this.state.orgNumber * 100;
+        this.setState({ total });
     }
 
     getOrganization = () => {
@@ -56,7 +65,7 @@ class Create extends React.Component<ICreateProps, ICreateState> {
                             name='orgNumber'
                             type='text'
                             placeHolder=''
-                            value=''
+                            value={this.state.orgNumber}
                             error=''
                             onChange={this.handleChange}
                         />
@@ -94,6 +103,13 @@ class Create extends React.Component<ICreateProps, ICreateState> {
                             error=''
                             onChange={this.handleChange}
                         />
+                    </div>
+                </div>
+
+                
+                <div className='row'>
+                    <div className='col-md-12'>
+                        <label>{this.state.total}</label>
                     </div>
                 </div>
 
