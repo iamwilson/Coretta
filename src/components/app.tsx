@@ -8,7 +8,8 @@ import { Notification } from '@sebgroup/react-components/dist/Notification';
 // components
 import Loader from './common/loader';
 const Home = React.lazy(() => import('./home'));
-const Login = React.lazy(() => import('./login/login'));
+// const Login = React.lazy(() => import('./login/login'));
+import Login from './login/login';
 const NotFound = React.lazy(() => import('./common/notFound'));
 
 // misc
