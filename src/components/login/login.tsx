@@ -28,7 +28,7 @@ export default function Login() {
 	const [count, setCount] = useState(0);
 	return (
 		<>
-			<nav className='navbar navbar-expand-lg navbar-light bg-light'>
+			<nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
 				<button
 					className='navbar-toggler'
 					type='button'
@@ -69,7 +69,7 @@ export default function Login() {
 					</form>
 				</div>
 			</nav>
-			<div className='container-fluid jumbotron'>
+			{/* <div className='container-fluid jumbotron'>
 				<div className='row'>
 					<div className='col-md-4'>
 						<p>Counter value is {count}</p>
@@ -85,7 +85,7 @@ export default function Login() {
 						</button>
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</>
 	);
 }
