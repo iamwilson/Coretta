@@ -8,7 +8,7 @@
         "build": "webpack --config webpack.config.prod.js",
         "clean": "rimraf ./dist",
         "lint": "tslint -p tsconfig.json",
-        "start": "webpack-dev-server --config webpack.config.js",
+        "start": "webpack-dev-server --config webpack.config.prod.js",
         "swagger": "dtsgen -o src/models/petstore.ts --url https://petstore.swagger.io/v2/swagger.json"
     },
     "dependencies": {
