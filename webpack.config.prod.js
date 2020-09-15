@@ -8,11 +8,11 @@ module.exports = {
         contentBase: './dist',
         port: 5000,
         stats: {
-            hash: false,
-            modules: false,
-            version: false,
-            timings: false,
-            builtAt: false,
+            hash: true,
+            modules: true,
+            version: true,
+            timings: true,
+            builtAt: true,
             excludeAssets: /\.(woff2?|ttf|eot|map)$/
         }
     },
